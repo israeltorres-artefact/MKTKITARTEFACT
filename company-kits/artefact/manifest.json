@@ -1,0 +1,71 @@
+{
+  "$schema": "https://presentation-os.internal/schemas/company-kit.json",
+  "id": "artefact",
+  "name": "Artefact",
+  "fullName": "Artefact \u2014 Data & AI Consulting",
+  "version": "1.0.0",
+  "templateRelease": "November 2024",
+  "description": "Kit oficial de identidad corporativa, tokens, reglas de maquetaci\u00f3n HTML y assets de presentaci\u00f3n para Artefact.",
+  "brandColors": {
+    "primary": "#002244",
+    "accent": "#FF0066",
+    "darkBackground": "#0D1634",
+    "secondaryBlue": "#273275",
+    "purple": "#752E7D",
+    "gradient": "linear-gradient(135deg, #002244 0%, #273275 33%, #752E7D 66%, #FF0066 100%)"
+  },
+  "typography": {
+    "primaryFamily": "Roboto",
+    "weights": [
+      "100",
+      "300",
+      "400",
+      "500",
+      "700",
+      "900"
+    ],
+    "hierarchy": {
+      "slideTitle": "Roboto Normal 20pt",
+      "slideSubtitle": "Roboto Bold 14pt",
+      "bodyText": "Roboto Normal 12pt",
+      "legendSource": "Roboto Medium 10pt",
+      "kpiMetric": "Roboto Black 36-44pt"
+    }
+  },
+  "assetCounts": {
+    "logos": 11,
+    "glassy3dIcons": 12,
+    "uiFlatIcons": 39,
+    "symbolBanners": 16,
+    "vectorSvgIcons": 171,
+    "cutouts": 9,
+    "photography": 89
+  },
+  "files": {
+    "context": "context.md",
+    "guidelines": "guidelines/brand_guidelines.md",
+    "palette": "guidelines/palette_guide.md",
+    "typography": "guidelines/typography_guide.md",
+    "iconsCatalog": "guidelines/icons_catalog.md",
+    "slideTaxonomy": "guidelines/slide_taxonomy.md",
+    "systemPrompt": "llm/system_prompt.md",
+    "skill": "llm/skill.md",
+    "template": "templates/template.html",
+    "fullDeckExample": "templates/full_deck_example.html",
+    "tokensCss": "tokens/theme.css",
+    "tokensColorsJson": "tokens/colors.json",
+    "tokensTypographyJson": "tokens/typography.json",
+    "formattingAndComponentsGuide": "guidelines/formatting_and_components_guide.md",
+    "elementsAndContextPlaybook": "guidelines/ELEMENTS_AND_CONTEXT_PLAYBOOK.md"
+  },
+  "verticals": [
+    "Retail & E-commerce",
+    "FMCG",
+    "Luxury & Fashion",
+    "Banking & Finance",
+    "Healthcare & Pharma",
+    "Energy & Utilities",
+    "Telecom & Media",
+    "Sustainability & ESG"
+  ]
+}

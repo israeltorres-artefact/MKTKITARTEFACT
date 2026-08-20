@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Artefact Brand System & Asset Library (Nov 2024)</title>
+  <link rel="stylesheet" href="tokens/artefact_theme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-family-artefact);
+      background: #F8F9FA;
+      color: var(--artefact-charcoal);
+      line-height: 1.5;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      background: var(--artefact-gradient-signature);
+      color: white;
+      padding: 40px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 30px rgba(0, 34, 68, 0.15);
+    }
+    header h1 {
+      font-size: 32pt;
+      font-weight: 300;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 14pt;
+      opacity: 0.9;
+    }
+    .section-title {
+      font-size: 20pt;
+      font-weight: 700;
+      color: var(--artefact-blue);
+      margin: 40px 0 20px 0;
+      border-bottom: 2px solid var(--artefact-gray-border);
+      padding-bottom: 8px;
+    }
+    .grid-colors {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .color-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid var(--artefact-gray-border);
+    }
+    .color-swatch {
+      height: 100px;
+      width: 100%;
+    }
+    .color-info {
+      padding: 14px;
+    }
+    .color-name {
+      font-weight: 700;
+      font-size: 11pt;
+      color: var(--artefact-blue);
+      margin-bottom: 4px;
+    }
+    .color-hex {
+      font-family: monospace;
+      font-size: 10pt;
+      color: var(--artefact-gray-muted);
+    }
+    .gradient-bar {
+      height: 60px;
+      border-radius: 12px;
+      background: var(--artefact-gradient-signature);
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .grid-assets {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+    .asset-card {
+      background: white;
+      border: 1px solid var(--artefact-gray-border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .asset-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    .asset-card img, .asset-card svg {
+      max-width: 100px;
+      max-height: 100px;
+      object-fit: contain;
+      margin-bottom: 12px;
+    }
+    .asset-card.dark-bg {
+      background: var(--artefact-dark-blue);
+      color: white;
+    }
+    .asset-name {
+      font-size: 9pt;
+      font-weight: 500;
+      word-break: break-word;
+      color: var(--artefact-gray-muted);
+    }
+    .asset-card.dark-bg .asset-name {
+      color: #E0E0E0;
+    }
+    .typography-demo {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid var(--artefact-gray-border);
+      margin-bottom: 30px;
+    }
+    .type-row {
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--artefact-gray-border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Artefact Brand System</h1>
+      <p>Biblioteca de Identidad Visual, Paleta Cromática y Catálogo de Iconos — Noviembre 2024</p>
+    </header>
+
+    <h2 class="section-title">1. Paleta de Colores & Degradados</h2>
+    <div class="gradient-bar"></div>
+    <div class="grid-colors">
+      <div class="color-card">
+        <div class="color-swatch" style="background:#002244;"></div>
+        <div class="color-info">
+          <div class="color-name">Artefact Blue</div>
+          <div class="color-hex">#002244</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#FF0066;"></div>
+        <div class="color-info">
+          <div class="color-name">Artefact Pink</div>
+          <div class="color-hex">#FF0066</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#0D1634;"></div>
+        <div class="color-info">
+          <div class="color-name">Dark Blue</div>
+          <div class="color-hex">#0D1634</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#273275;"></div>
+        <div class="color-info">
+          <div class="color-name">Medium Blue</div>
+          <div class="color-hex">#273275</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#752E7D;"></div>
+        <div class="color-info">
+          <div class="color-name">Purple</div>
+          <div class="color-hex">#752E7D</div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">2. Logotipos Oficiales (11)</h2>
+    <div class="grid-assets">
+      <div class="asset-card ">
+        <img src="assets/logos/artefact_logo_horizontal_dark.png" alt="artefact_logo_horizontal_dark.png">
+        <span class="asset-name">artefact_logo_horizontal_dark.png</span>
+      </div>
+      <div class="asset-card dark-bg">
+        <img src="assets/logos/artefact_logo_horizontal_white.png" alt="artefact_logo_horizontal_white.png">
+        <span class="asset-name">artefact_logo_horizontal_white.png</span>
+      </div>
+      <div class="asset-card ">
+        <img src="assets/logos/artefact_logo_primary_dark.png" alt="artefact_logo_primary_dark.png">
+        <span class="asset-name">artefact_logo_primary_dark.png</span>
+      </div>
+      <div class="asset-card dark-bg">
+        <img src="assets/logos/artefact_logo_primary_white.png" alt="artefact_logo_primary_white.png">
+        <span class="asset-name">artefact_logo_primary_white.png</span>
+      </div>
+      <div class="asset-card ">
+        <img src="assets/logos/artefact_logo_stacked_gradient.png" alt="artefact_logo_stacked_gradient.png">
+        <span class="asset-name">artefact_logo_stacked_gradient.png</span>
+      </div>
+      <div class="asset-card dark-bg">
+        <img src="assets/logos/artefact_logo_tagline_white.png" alt="artefact_logo_tagline_white.png">
+        <span class="asset-name">artefact_logo_tagline_white.png</span>
+      </div>
+      <div class="asset-card dark-bg">
+        <img src="assets/logos/artefact_logo_white_square_tagline.png" alt="artefact_logo_white_square_tagline.png">
+        <span class="asset-name">artefact_logo_white_square_tagline.png</span>
+      </div>
+      <div class="asset-card ">
+        <img src="assets/logos/artefact_monogram_a_dark.png" alt="artefact_monogram_a_dark.png">
+        <span class="asset-name">artefact_monogram_a_dark.png</span>
+      </div>
+      <div class="asset-card dark-bg">
+        <img src="assets/logos/artefact_monogram_a_white.png" alt="artefact_monogram_a_white.png">
+        <span class="asset-name">artefact_monogram_a_white.png</span>
+      </div>
+      <div class="asset-card ">
+        <img src="assets/logos/artefact_wordmark_large_gradient.png" alt="artefact_wordmark_large_gradient.png">
+        <span class="asset-name">artefact_wordmark_large_gradient.png</span>
+      </div>
+      <div class="asset-card ">
+        <img src="assets/logos/artefact_wordmark_outline.png" alt="artefact_wordmark_outline.png">
+        <span class="asset-name">artefact_wordmark_outline.png</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">3. Iconos 3D Glassy de Áreas de Práctica (12)</h2>
+    <div class="grid-assets">
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_ai_acceleration.png" alt="icon_glassy_ai_acceleration.png">
+        <span class="asset-name">Ai Acceleration</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_ai_hero_large.png" alt="icon_glassy_ai_hero_large.png">
+        <span class="asset-name">Ai Hero Large</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_clients.png" alt="icon_glassy_clients.png">
+        <span class="asset-name">Clients</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_cx_digital_marketing.png" alt="icon_glassy_cx_digital_marketing.png">
+        <span class="asset-name">Cx Digital Marketing</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_data_foundations_bi.png" alt="icon_glassy_data_foundations_bi.png">
+        <span class="asset-name">Data Foundations Bi</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_data_hero_large.png" alt="icon_glassy_data_hero_large.png">
+        <span class="asset-name">Data Hero Large</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_iconic_a.png" alt="icon_glassy_iconic_a.png">
+        <span class="asset-name">Iconic A</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_it_data_platform.png" alt="icon_glassy_it_data_platform.png">
+        <span class="asset-name">It Data Platform</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_marketing_datadriven.png" alt="icon_glassy_marketing_datadriven.png">
+        <span class="asset-name">Marketing Datadriven</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_marketing_hero_large.png" alt="icon_glassy_marketing_hero_large.png">
+        <span class="asset-name">Marketing Hero Large</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_people.png" alt="icon_glassy_people.png">
+        <span class="asset-name">People</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/glassy_3d/icon_glassy_strategy_transformation.png" alt="icon_glassy_strategy_transformation.png">
+        <span class="asset-name">Strategy Transformation</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">4. Iconos Planos de UI (39)</h2>
+    <div class="grid-assets">
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_01.png" alt="icon_ui_01.png">
+        <span class="asset-name">icon_ui_01.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_02.png" alt="icon_ui_02.png">
+        <span class="asset-name">icon_ui_02.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_03.png" alt="icon_ui_03.png">
+        <span class="asset-name">icon_ui_03.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_04.png" alt="icon_ui_04.png">
+        <span class="asset-name">icon_ui_04.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_05.png" alt="icon_ui_05.png">
+        <span class="asset-name">icon_ui_05.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_06.png" alt="icon_ui_06.png">
+        <span class="asset-name">icon_ui_06.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_07.png" alt="icon_ui_07.png">
+        <span class="asset-name">icon_ui_07.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_08.png" alt="icon_ui_08.png">
+        <span class="asset-name">icon_ui_08.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_09.png" alt="icon_ui_09.png">
+        <span class="asset-name">icon_ui_09.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_10.png" alt="icon_ui_10.png">
+        <span class="asset-name">icon_ui_10.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_11.png" alt="icon_ui_11.png">
+        <span class="asset-name">icon_ui_11.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_12.png" alt="icon_ui_12.png">
+        <span class="asset-name">icon_ui_12.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_13.png" alt="icon_ui_13.png">
+        <span class="asset-name">icon_ui_13.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_14.png" alt="icon_ui_14.png">
+        <span class="asset-name">icon_ui_14.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_15.png" alt="icon_ui_15.png">
+        <span class="asset-name">icon_ui_15.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_16.png" alt="icon_ui_16.png">
+        <span class="asset-name">icon_ui_16.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_17.png" alt="icon_ui_17.png">
+        <span class="asset-name">icon_ui_17.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_18.png" alt="icon_ui_18.png">
+        <span class="asset-name">icon_ui_18.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_19.png" alt="icon_ui_19.png">
+        <span class="asset-name">icon_ui_19.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_20.png" alt="icon_ui_20.png">
+        <span class="asset-name">icon_ui_20.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_21.png" alt="icon_ui_21.png">
+        <span class="asset-name">icon_ui_21.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_22.png" alt="icon_ui_22.png">
+        <span class="asset-name">icon_ui_22.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_23.png" alt="icon_ui_23.png">
+        <span class="asset-name">icon_ui_23.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_24.png" alt="icon_ui_24.png">
+        <span class="asset-name">icon_ui_24.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_25.png" alt="icon_ui_25.png">
+        <span class="asset-name">icon_ui_25.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_26.png" alt="icon_ui_26.png">
+        <span class="asset-name">icon_ui_26.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_27.png" alt="icon_ui_27.png">
+        <span class="asset-name">icon_ui_27.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_28.png" alt="icon_ui_28.png">
+        <span class="asset-name">icon_ui_28.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_29.png" alt="icon_ui_29.png">
+        <span class="asset-name">icon_ui_29.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_30.png" alt="icon_ui_30.png">
+        <span class="asset-name">icon_ui_30.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_31.png" alt="icon_ui_31.png">
+        <span class="asset-name">icon_ui_31.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_32.png" alt="icon_ui_32.png">
+        <span class="asset-name">icon_ui_32.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_33.png" alt="icon_ui_33.png">
+        <span class="asset-name">icon_ui_33.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_34.png" alt="icon_ui_34.png">
+        <span class="asset-name">icon_ui_34.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_35.png" alt="icon_ui_35.png">
+        <span class="asset-name">icon_ui_35.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_36.png" alt="icon_ui_36.png">
+        <span class="asset-name">icon_ui_36.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_37.png" alt="icon_ui_37.png">
+        <span class="asset-name">icon_ui_37.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_38.png" alt="icon_ui_38.png">
+        <span class="asset-name">icon_ui_38.png</span>
+      </div>
+      <div class="asset-card">
+        <img src="assets/icons/ui_flat/icon_ui_39.png" alt="icon_ui_39.png">
+        <span class="asset-name">icon_ui_39.png</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">5. Iconos Vectoriales SVG Editables (171)</h2>
+    <div class="grid-assets">
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s90_01.svg" alt="vector_icon_s90_01.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s90_01.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s90_02.svg" alt="vector_icon_s90_02.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s90_02.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s90_03.svg" alt="vector_icon_s90_03.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s90_03.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_01.svg" alt="vector_icon_s91_01.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_01.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_02.svg" alt="vector_icon_s91_02.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_02.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_03.svg" alt="vector_icon_s91_03.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_03.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_04.svg" alt="vector_icon_s91_04.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_04.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_05.svg" alt="vector_icon_s91_05.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_05.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_06.svg" alt="vector_icon_s91_06.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_06.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_07.svg" alt="vector_icon_s91_07.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_07.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_08.svg" alt="vector_icon_s91_08.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_08.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_09.svg" alt="vector_icon_s91_09.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_09.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_10.svg" alt="vector_icon_s91_10.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_10.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_11.svg" alt="vector_icon_s91_11.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_11.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_12.svg" alt="vector_icon_s91_12.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_12.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_13.svg" alt="vector_icon_s91_13.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_13.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_14.svg" alt="vector_icon_s91_14.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_14.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_15.svg" alt="vector_icon_s91_15.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_15.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_16.svg" alt="vector_icon_s91_16.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_16.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_17.svg" alt="vector_icon_s91_17.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_17.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_18.svg" alt="vector_icon_s91_18.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_18.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_19.svg" alt="vector_icon_s91_19.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_19.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_20.svg" alt="vector_icon_s91_20.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_20.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_21.svg" alt="vector_icon_s91_21.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_21.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_22.svg" alt="vector_icon_s91_22.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_22.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_23.svg" alt="vector_icon_s91_23.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_23.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_24.svg" alt="vector_icon_s91_24.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_24.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_25.svg" alt="vector_icon_s91_25.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_25.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_26.svg" alt="vector_icon_s91_26.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_26.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_27.svg" alt="vector_icon_s91_27.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_27.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_28.svg" alt="vector_icon_s91_28.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_28.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_29.svg" alt="vector_icon_s91_29.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_29.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_30.svg" alt="vector_icon_s91_30.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_30.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_31.svg" alt="vector_icon_s91_31.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_31.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_32.svg" alt="vector_icon_s91_32.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_32.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_33.svg" alt="vector_icon_s91_33.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_33.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_34.svg" alt="vector_icon_s91_34.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_34.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_35.svg" alt="vector_icon_s91_35.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_35.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_36.svg" alt="vector_icon_s91_36.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_36.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_37.svg" alt="vector_icon_s91_37.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_37.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_38.svg" alt="vector_icon_s91_38.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_38.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_39.svg" alt="vector_icon_s91_39.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_39.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_40.svg" alt="vector_icon_s91_40.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_40.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_41.svg" alt="vector_icon_s91_41.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_41.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_42.svg" alt="vector_icon_s91_42.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_42.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_43.svg" alt="vector_icon_s91_43.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_43.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_44.svg" alt="vector_icon_s91_44.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_44.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_45.svg" alt="vector_icon_s91_45.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_45.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_46.svg" alt="vector_icon_s91_46.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_46.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_47.svg" alt="vector_icon_s91_47.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_47.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_48.svg" alt="vector_icon_s91_48.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_48.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_49.svg" alt="vector_icon_s91_49.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_49.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_50.svg" alt="vector_icon_s91_50.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_50.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_51.svg" alt="vector_icon_s91_51.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_51.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_52.svg" alt="vector_icon_s91_52.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_52.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_53.svg" alt="vector_icon_s91_53.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_53.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_54.svg" alt="vector_icon_s91_54.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_54.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_55.svg" alt="vector_icon_s91_55.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_55.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_56.svg" alt="vector_icon_s91_56.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_56.svg</span>
+      </div>
+      <div class="asset-card" style="background:#002244; color:white;">
+        <img src="assets/icons/vector_svg/vector_icon_s91_57.svg" alt="vector_icon_s91_57.svg" style="filter: brightness(0) invert(1);">
+        <span class="asset-name" style="color:#A0A0A0;">vector_icon_s91_57.svg</span>
+      </div>
+    </div>
+    <p style="text-align:center; color:var(--artefact-gray-muted); margin-bottom:40px;">Mostrando primeros 60 de 171 iconos vectoriales SVG disponibles en <code>assets/icons/vector_svg/</code>.</p>
+
+    <h2 class="section-title">6. Jerarquía Tipográfica (Roboto)</h2>
+    <div class="typography-demo">
+      <div class="type-row">
+        <div style="font-size:20pt; font-weight:400; color:var(--artefact-blue);">Título de Diapositiva — Roboto Normal 20pt</div>
+        <div style="font-size:9pt; color:var(--artefact-gray-muted);">Uso: Título principal de cada lámina.</div>
+      </div>
+      <div class="type-row">
+        <div style="font-size:14pt; font-weight:700; color:var(--artefact-blue);">Subtítulo de Diapositiva — Roboto Bold 14pt</div>
+        <div style="font-size:9pt; color:var(--artefact-gray-muted);">Uso: Contexto y anclaje bajo el título principal.</div>
+      </div>
+      <div class="type-row">
+        <div style="font-size:12pt; font-weight:400; color:var(--artefact-charcoal);">Cuerpo de texto y descripción analítica — Roboto Normal 12pt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div style="font-size:9pt; color:var(--artefact-gray-muted);">Uso: Párrafos de lectura extendida y contenido de tarjetas.</div>
+      </div>
+      <div class="type-row">
+        <div style="font-size:10pt; font-weight:500; color:var(--artefact-gray-muted);">Fuente: Artefact Data & AI Consulting — Roboto Medium 10pt</div>
+        <div style="font-size:9pt; color:var(--artefact-gray-muted);">Uso: Metadatos, notas al pie y referencias.</div>
+      </div>
+      <div class="type-row" style="border-bottom:none;">
+        <div style="font-size:36pt; font-weight:900; color:var(--artefact-pink); line-height:1;">+145% ROI</div>
+        <div style="font-size:11pt; font-weight:700; color:var(--artefact-blue);">Cifra de Impacto / KPI — Roboto Black 36pt con etiqueta Roboto Bold 11pt</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

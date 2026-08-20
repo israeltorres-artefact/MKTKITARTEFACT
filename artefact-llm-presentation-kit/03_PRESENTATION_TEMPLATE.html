@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Plantilla Maestra Artefact — Presentation HTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+  <style>
+    :root {
+      --artefact-blue: #002244;
+      --artefact-pink: #FF0066;
+      --artefact-dark-blue: #0D1634;
+      --artefact-medium-blue: #273275;
+      --artefact-purple: #752E7D;
+      --artefact-electric-blue: #052BF6;
+      --artefact-bright-purple: #9900FF;
+      --artefact-surface: #F4F6F9;
+      --artefact-border: #EEEEEE;
+      --artefact-charcoal: #212121;
+      --artefact-muted: #595959;
+      --artefact-gradient-sig: linear-gradient(135deg, #002244 0%, #273275 33%, #752E7D 66%, #FF0066 100%);
+      --artefact-gradient-bar: linear-gradient(90deg, #002244 0%, #273275 33%, #752E7D 66%, #FF0066 100%);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { margin: 0; padding: 0; background: #222; font-family: 'Roboto', sans-serif; }
+
+    /* Web Stage Container */
+    .deck-stage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 40px 0;
+    }
+
+    /* Fixed Canvas: 1920x1080 Widescreen 16:9 */
+    .slide {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+      background: #FFFFFF;
+      color: var(--artefact-charcoal);
+      padding: 60px 80px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+
+    /* Dark Variant */
+    .slide.dark-theme {
+      background: var(--artefact-dark-blue);
+      color: #FFFFFF;
+    }
+
+    /* Gradient Variant */
+    .slide.gradient-theme {
+      background: var(--artefact-gradient-sig);
+      color: #FFFFFF;
+    }
+
+    /* Header Structure */
+    .slide-header {
+      margin-bottom: 40px;
+    }
+    .slide-title {
+      font-size: 28px; /* 21pt approx */
+      font-weight: 400; /* Roboto Normal */
+      color: var(--artefact-blue);
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+    .slide.dark-theme .slide-title, .slide.gradient-theme .slide-title {
+      color: #FFFFFF;
+    }
+    .slide-subtitle {
+      font-size: 20px; /* 15pt approx */
+      font-weight: 700; /* Roboto Bold */
+      color: var(--artefact-blue);
+      line-height: 1.3;
+    }
+    .slide.dark-theme .slide-subtitle, .slide.gradient-theme .slide-subtitle {
+      color: #FFFFFF;
+      opacity: 0.9;
+    }
+
+    /* Footer Structure */
+    .slide-footer {
+      position: absolute;
+      bottom: 30px;
+      left: 80px;
+      right: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--artefact-border);
+      padding-top: 12px;
+      font-size: 13px;
+      color: var(--artefact-muted);
+      font-weight: 500;
+    }
+    .slide.dark-theme .slide-footer, .slide.gradient-theme .slide-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      color: #A0A0A0;
+    }
+
+    /* Grid Helpers */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    /* Card Box */
+    .artefact-card {
+      background: var(--artefact-surface);
+      border-radius: 12px;
+      border: 1px solid var(--artefact-border);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+    }
+    .slide.dark-theme .artefact-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    /* KPI Callout */
+    .kpi-number {
+      font-size: 52px;
+      font-weight: 900;
+      color: var(--artefact-pink);
+      line-height: 1.0;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body data-pptx-deck data-pptx-version="1.0" data-pptx-width="1920" data-pptx-height="1080">
+  <div class="deck-stage">
+
+    <!-- SLIDE S01: Cover Slide (Gradient Theme) -->
+    <section class="slide gradient-theme" data-pptx-slide data-slide-id="S01">
+      <div style="position: absolute; top: 60px; left: 80px;">
+        <img src="./assets/logos/artefact_logo_primary_white.png" data-pptx-role="logo" data-pptx-preserve-aspect="true" style="height: 48px; object-fit: contain;" alt="Artefact Logo">
+      </div>
+
+      <div style="position: absolute; top: 320px; left: 80px; max-width: 1100px;">
+        <div style="font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--artefact-pink); margin-bottom: 16px;">Propuesta Estratégica</div>
+        <h1 data-pptx-role="title" style="font-size: 52px; font-weight: 300; line-height: 1.15; margin-bottom: 20px; color: #FFFFFF;">
+          Aceleración de Inteligencia Artificial & Transformación de Datos
+        </h1>
+        <p data-pptx-role="subtitle" style="font-size: 24px; font-weight: 400; opacity: 0.9; line-height: 1.4; color: #E0E0E0;">
+          Estrategia integral para industrializar casos de uso de IA generativa y modernizar el stack analítico corporativo.
+        </p>
+      </div>
+
+      <div style="position: absolute; right: 100px; top: 260px; width: 440px; height: 440px; display: flex; align-items: center; justify-content: center;">
+        <img src="./assets/icons/glassy_3d/icon_glassy_ai_acceleration.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="AI Glassy Icon">
+      </div>
+
+      <div class="slide-footer">
+        <div>Artefact Data & AI Consulting • Confidencial</div>
+        <div>Noviembre 2024</div>
+      </div>
+    </section>
+
+    <!-- SLIDE S02: Content & KPIs (White Theme) -->
+    <section class="slide" data-pptx-slide data-slide-id="S02">
+      <div class="slide-header">
+        <h2 class="slide-title" data-pptx-role="title">Pilares de Transformación Digital</h2>
+        <div class="slide-subtitle" data-pptx-role="subtitle">Tres palancas estructuradas para capturar valor medible en los primeros 6 meses</div>
+      </div>
+
+      <div class="grid-3" style="height: 720px;">
+        <div class="artefact-card">
+          <div style="width: 64px; height: 64px; margin-bottom: 20px;">
+            <img src="./assets/icons/glassy_3d/icon_glassy_data_foundations_bi.png" style="width:100%; height:100%; object-fit:contain;" alt="Data BI">
+          </div>
+          <div class="kpi-number">+45%</div>
+          <h3 style="font-size: 22px; font-weight: 700; color: var(--artefact-blue); margin-bottom: 12px;">1. Data Foundations</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: var(--artefact-charcoal);">
+            Gobernanza moderna, calidad de datos automatizada e ingesta en tiempo real sobre arquitectura Lakehouse.
+          </p>
+        </div>
+
+        <div class="artefact-card">
+          <div style="width: 64px; height: 64px; margin-bottom: 20px;">
+            <img src="./assets/icons/glassy_3d/icon_glassy_ai_acceleration.png" style="width:100%; height:100%; object-fit:contain;" alt="AI">
+          </div>
+          <div class="kpi-number">3.2x</div>
+          <h3 style="font-size: 22px; font-weight: 700; color: var(--artefact-blue); margin-bottom: 12px;">2. AI Acceleration</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: var(--artefact-charcoal);">
+            Despliegue de agentes inteligentes, modelos LLM especializados y automatización analítica de extremo a extremo.
+          </p>
+        </div>
+
+        <div class="artefact-card">
+          <div style="width: 64px; height: 64px; margin-bottom: 20px;">
+            <img src="./assets/icons/glassy_3d/icon_glassy_strategy_transformation.png" style="width:100%; height:100%; object-fit:contain;" alt="Strategy">
+          </div>
+          <div class="kpi-number">-30%</div>
+          <h3 style="font-size: 22px; font-weight: 700; color: var(--artefact-blue); margin-bottom: 12px;">3. Business Adoption</h3>
+          <p style="font-size: 16px; line-height: 1.5; color: var(--artefact-charcoal);">
+            Capacitación de equipos de negocio, gestión del cambio y reducción sustancial del costo de operación.
+          </p>
+        </div>
+      </div>
+
+      <div class="slide-footer">
+        <div data-pptx-role="source">Fuente: Benchmarks de Transformación Artefact Global • 2024</div>
+        <div>Slide 02</div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>

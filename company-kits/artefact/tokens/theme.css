@@ -1,0 +1,47 @@
+/* Artefact Brand Design System Tokens - Official November 2024 */
+:root {
+  /* Corporate Colors */
+  --artefact-blue: #002244;
+  --artefact-pink: #FF0066;
+  
+  /* Secondary Colors */
+  --artefact-dark-blue: #0D1634;
+  --artefact-medium-blue: #273275;
+  --artefact-purple: #752E7D;
+  
+  /* Accents & Data Viz */
+  --artefact-electric-blue: #052BF6;
+  --artefact-bright-purple: #9900FF;
+  --artefact-teal: #0097A7;
+  --artefact-amber: #FFAB40;
+  
+  /* Neutrals */
+  --artefact-white: #FFFFFF;
+  --artefact-gray-light: #F4F6F9;
+  --artefact-gray-border: #EEEEEE;
+  --artefact-gray-muted: #595959;
+  --artefact-charcoal: #212121;
+  
+  /* Gradients */
+  --artefact-gradient-signature: linear-gradient(135deg, #002244 0%, #273275 33%, #752E7D 66%, #FF0066 100%);
+  --artefact-gradient-horizontal: linear-gradient(90deg, #002244 0%, #273275 33%, #752E7D 66%, #FF0066 100%);
+  --artefact-gradient-dark: linear-gradient(180deg, #0D1634 0%, #002244 100%);
+  
+  /* Typography */
+  --font-family-artefact: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Font Sizes */
+  --fs-title: 20pt;
+  --fs-subtitle: 14pt;
+  --fs-body: 12pt;
+  --fs-legend: 10pt;
+  --fs-kpi: 36pt;
+  
+  /* Font Weights */
+  --fw-thin: 100;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "defaultKit": "artefact",
+  "kits": [
+    {
+      "id": "artefact",
+      "name": "Artefact",
+      "path": "artefact/manifest.json",
+      "status": "active",
+      "description": "Data & AI Consulting Master Template (Nov 2024)"
+    },
+    {
+      "id": "bch",
+      "name": "Banco de Chile",
+      "path": "bch/manifest.json",
+      "status": "available",
+      "description": "Banco de Chile Executive Presentation Engine"
+    }
+  ]
+}

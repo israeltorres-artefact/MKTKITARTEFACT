@@ -1,0 +1,132 @@
+{
+  "brand": {
+    "name": "Artefact",
+    "version": "November 2024",
+    "description": "Artefact Brand Design System Tokens"
+  },
+  "corporate_colors": {
+    "artefact_blue": {
+      "hex": "#002244",
+      "rgb": "rgb(0, 34, 68)",
+      "hsl": "hsl(210, 100%, 13%)",
+      "role": "Primary Corporate Dark Blue / Main text and branding"
+    },
+    "artefact_pink": {
+      "hex": "#FF0066",
+      "rgb": "rgb(255, 0, 102)",
+      "hsl": "hsl(336, 100%, 50%)",
+      "role": "Primary Corporate Accent / Hyperlink & Highlights"
+    }
+  },
+  "secondary_colors": {
+    "dark_blue": {
+      "hex": "#0D1634",
+      "rgb": "rgb(13, 22, 52)",
+      "hsl": "hsl(226, 60%, 13%)",
+      "role": "Deep Midnight Background / Dark Mode Slide Background"
+    },
+    "medium_blue": {
+      "hex": "#273275",
+      "rgb": "rgb(39, 50, 117)",
+      "hsl": "hsl(232, 50%, 31%)",
+      "role": "Secondary Royal Indigo Blue / Accent 1"
+    },
+    "purple": {
+      "hex": "#752E7D",
+      "rgb": "rgb(117, 46, 125)",
+      "hsl": "hsl(294, 44%, 34%)",
+      "role": "Secondary Aubergine Magenta / Accent 2"
+    }
+  },
+  "data_visualization_and_accents": {
+    "electric_blue": {
+      "hex": "#052BF6",
+      "rgb": "rgb(5, 43, 246)",
+      "role": "Vibrant Electric Blue (Accent 4 / Data Series 1)"
+    },
+    "bright_purple": {
+      "hex": "#9900FF",
+      "rgb": "rgb(153, 0, 255)",
+      "role": "Vibrant Purple (Accent 5 / Data Series 2)"
+    },
+    "cyan_teal": {
+      "hex": "#0097A7",
+      "rgb": "rgb(0, 151, 167)",
+      "role": "Teal / Link hover"
+    },
+    "amber_gold": {
+      "hex": "#FFAB40",
+      "rgb": "rgb(255, 171, 64)",
+      "role": "Amber Accent"
+    }
+  },
+  "neutral_colors": {
+    "white": {
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "role": "Light background & high-contrast dark-mode text"
+    },
+    "light_gray_bg": {
+      "hex": "#F4F6F9",
+      "rgb": "rgb(244, 246, 249)",
+      "role": "Card container backgrounds"
+    },
+    "card_border": {
+      "hex": "#EEEEEE",
+      "rgb": "rgb(238, 238, 238)",
+      "role": "Subtle borders and dividers"
+    },
+    "medium_gray_text": {
+      "hex": "#595959",
+      "rgb": "rgb(89, 89, 89)",
+      "role": "Secondary body text / legends"
+    },
+    "dark_gray_text": {
+      "hex": "#212121",
+      "rgb": "rgb(33, 33, 33)",
+      "role": "Neutral dark body copy"
+    }
+  },
+  "gradients": {
+    "artefact_signature_gradient": {
+      "css": "linear-gradient(135deg, #002244 0%, #273275 33%, #752E7D 66%, #FF0066 100%)",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#002244",
+          "name": "Artefact Blue"
+        },
+        {
+          "offset": "33%",
+          "color": "#273275",
+          "name": "Medium Blue"
+        },
+        {
+          "offset": "66%",
+          "color": "#752E7D",
+          "name": "Purple"
+        },
+        {
+          "offset": "100%",
+          "color": "#FF0066",
+          "name": "Artefact Pink"
+        }
+      ],
+      "role": "Hero presentation slides, section dividers, cover backgrounds"
+    },
+    "blue_depth_gradient": {
+      "css": "linear-gradient(180deg, #0D1634 0%, #002244 100%)",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#0D1634"
+        },
+        {
+          "offset": "100%",
+          "color": "#002244"
+        }
+      ],
+      "role": "Dark slide backgrounds"
+    }
+  }
+}
