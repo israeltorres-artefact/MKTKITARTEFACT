@@ -67,5 +67,6 @@
     "Energy & Utilities",
     "Telecom & Media",
     "Sustainability & ESG"
-  ]
+  ],
+  "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/"
 }
