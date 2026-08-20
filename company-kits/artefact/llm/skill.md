@@ -6,7 +6,7 @@ description: Engine maestro, guía de diseño, storytelling de consultoría en D
 # 🚀 SKILL — Artefact Executive Presentation Engine
 ## Generación de presentaciones de consultoría Data & AI (16:9 Widescreen — 1920x1080)
 ## Catálogo Web en Vivo: https://israeltorres-artefact.github.io/MKTKITARTEFACT/
-## Base CDN Global: https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/
+## Base CDN Global: https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/
 
 ---
 
@@ -33,37 +33,37 @@ Usa siempre estas URLs públicas directas en el código HTML de las presentacion
 
 ### Logotipos Oficiales
 - **Logo Blanco Completo (Fondos Oscuros & Degradados)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_primary_white.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_primary_white.png`
 - **Logo Azul Completo (Fondos Claros & Blancos)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_primary_dark.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_primary_dark.png`
 - **Isotipo Monograma 'A' Blanco (2048x2048)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_monogram_a_white.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_monogram_a_white.png`
 - **Isotipo Monograma 'A' Azul (2048x2048)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_monogram_a_dark.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_monogram_a_dark.png`
 - **Wordmark Horizontal Blanco**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_horizontal_white.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_horizontal_white.png`
 - **Wordmark Horizontal Azul**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_horizontal_dark.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_horizontal_dark.png`
 
 ### Iconos 3D Glassy de Áreas de Práctica
 - **AI Acceleration (Inteligencia Artificial / LLMs / Machine Learning)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_ai_acceleration.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_ai_acceleration.png`
 - **Data Foundations & BI (Data Lakehouse / Gobierno / Dashboards)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_data_foundations_bi.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_data_foundations_bi.png`
 - **Strategy & Transformation (Estrategia / ROI / Operating Model)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_strategy_transformation.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_strategy_transformation.png`
 - **IT & Data Platform (Cloud GCP/AWS/Azure / MLOps / Arquitectura)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_it_data_platform.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_it_data_platform.png`
 - **CX & Digital Marketing (Customer 360 / CDP / Personalización)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_cx_digital_marketing.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_cx_digital_marketing.png`
 - **Marketing Data-Driven (Media Mix Modeling / Atribución / ROAS)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_marketing_datadriven.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_marketing_datadriven.png`
 - **People & Culture (Talento / AI Literacy / Capacitación)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_people.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_people.png`
 - **Clients & Ecosystem (Partnerships / Portafolio)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_clients.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_clients.png`
 - **Iconic A of Artefact (Símbolo Insigne)**:
-  `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_iconic_a.png`
+  `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_iconic_a.png`
 
 ---
 
@@ -146,7 +146,7 @@ Usa siempre estas URLs públicas directas en el código HTML de las presentacion
   <!-- Ejemplo Slide S01: Portada con Logo CDN y Glassy Icon -->
   <section class="slide gradient-theme" data-pptx-slide data-slide-id="S01">
     <div style="position: absolute; top: 60px; left: 80px;">
-      <img src="https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_primary_white.png" data-pptx-role="logo" data-pptx-preserve-aspect="true" style="height: 48px; object-fit: contain;" alt="Logo Artefact">
+      <img src="https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_primary_white.png" data-pptx-role="logo" data-pptx-preserve-aspect="true" style="height: 48px; object-fit: contain;" alt="Logo Artefact">
     </div>
     <div style="position: absolute; top: 320px; left: 80px; max-width: 1100px;">
       <div style="font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--artefact-pink); margin-bottom: 16px;">Propuesta Estratégica</div>
@@ -158,7 +158,7 @@ Usa siempre estas URLs públicas directas en el código HTML de las presentacion
       </p>
     </div>
     <div style="position: absolute; right: 100px; top: 260px; width: 440px; height: 440px;">
-      <img src="https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_ai_acceleration.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="AI Icon">
+      <img src="https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_ai_acceleration.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="AI Icon">
     </div>
     <div style="position: absolute; bottom: 30px; left: 80px; right: 80px; display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 14px; font-size: 13px; color: #A0A0A0;">
       <div>Artefact Data Consulting • Confidencial</div>
@@ -176,6 +176,6 @@ Usa siempre estas URLs públicas directas en el código HTML de las presentacion
 - [ ] Relación de aspecto 16:9 Widescreen (`1920x1080`).
 - [ ] Títulos en `Roboto Normal 20pt` con mensaje activo (Action Title).
 - [ ] Subtítulos en `Roboto Bold 14pt` que contextualizan el título.
-- [ ] Todos los activos e iconos apuntan a la CDN global: `https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/`.
+- [ ] Todos los activos e iconos apuntan a la CDN global: `https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/`.
 - [ ] Cero texto recortado o desbordado.
 - [ ] Presentación 100% editable al abrir en PowerPoint.

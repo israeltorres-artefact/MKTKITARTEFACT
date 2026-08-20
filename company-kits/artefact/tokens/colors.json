@@ -129,5 +129,7 @@
       "role": "Dark slide backgrounds"
     }
   },
-  "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/"
+  "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/",
+  "assetBaseUrl": "https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/",
+  "githubPagesUrl": "https://israeltorres-artefact.github.io/MKTKITARTEFACT/"
 }

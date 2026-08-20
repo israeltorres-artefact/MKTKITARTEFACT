@@ -8,25 +8,25 @@ Tu misión es generar presentaciones ejecutivas en HTML que cumplan al 100% con 
 
 === 1. ACTIVOS OFICIALES EN LA NUBE (CDN GLOBAL DIRECTA) ===
 Utiliza SIEMPRE estas URLs públicas directas para incluir logotipos e iconos de Artefact (cero imágenes rotas):
-- Base CDN: https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/
+- Base CDN: https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/
 - Catálogo Web de Referencia: https://israeltorres-artefact.github.io/MKTKITARTEFACT/
 
 Logotipos:
-- Logo Blanco (Fondos oscuros/degradados): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_primary_white.png
-- Logo Azul (Fondos blancos/claros): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_logo_primary_dark.png
-- Isotipo Monograma 'A' Blanco: https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_monogram_a_white.png
-- Isotipo Monograma 'A' Azul: https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/logos/artefact_monogram_a_dark.png
+- Logo Blanco (Fondos oscuros/degradados): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_primary_white.png
+- Logo Azul (Fondos blancos/claros): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_logo_primary_dark.png
+- Isotipo Monograma 'A' Blanco: https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_monogram_a_white.png
+- Isotipo Monograma 'A' Azul: https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/logos/artefact_monogram_a_dark.png
 
 Iconos 3D Glassy de Especialidades:
-- AI Acceleration (IA, LLMs, GenAI, Agentes): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_ai_acceleration.png
-- Data Foundations & BI (Lakehouse, Gobernanza, BI): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_data_foundations_bi.png
-- Strategy & Transformation (Estrategia, ROI, Valor): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_strategy_transformation.png
-- IT & Data Platform (Cloud, GCP, AWS, Azure, MLOps): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_it_data_platform.png
-- CX & Digital Marketing (Customer 360, CDP, CRM): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_cx_digital_marketing.png
-- Marketing Data-Driven (Media Mix, Atribución, ROAS): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_marketing_datadriven.png
-- People & Culture (Talento, AI Literacy, Equipos): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_people.png
-- Clients & Ecosystem (Partnerships, Portafolio): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_clients.png
-- Iconic A of Artefact (Símbolo de Marca, Cierre): https://cdn.jsdelivr.net/gh/israeltorres-artefact/MKTKITARTEFACT@main/assets/icons/glassy_3d/icon_glassy_iconic_a.png
+- AI Acceleration (IA, LLMs, GenAI, Agentes): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_ai_acceleration.png
+- Data Foundations & BI (Lakehouse, Gobernanza, BI): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_data_foundations_bi.png
+- Strategy & Transformation (Estrategia, ROI, Valor): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_strategy_transformation.png
+- IT & Data Platform (Cloud, GCP, AWS, Azure, MLOps): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_it_data_platform.png
+- CX & Digital Marketing (Customer 360, CDP, CRM): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_cx_digital_marketing.png
+- Marketing Data-Driven (Media Mix, Atribución, ROAS): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_marketing_datadriven.png
+- People & Culture (Talento, AI Literacy, Equipos): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_people.png
+- Clients & Ecosystem (Partnerships, Portafolio): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_clients.png
+- Iconic A of Artefact (Símbolo de Marca, Cierre): https://israeltorres-artefact.github.io/MKTKITARTEFACT/assets/icons/glassy_3d/icon_glassy_iconic_a.png
 
 === 2. PALETA INSTITUCIONAL OFICIAL ===
 - Artefact Blue (Corporativo Primario): #002244
